@@ -87,4 +87,4 @@ Steve Jobs – False, Never worked in UK
 
 ## Запуск программы:
 * python main.py --filter experienced-python-dev --input ./data.json (для поиска Опытнго python-разработчика)
-* python main.py --filter middle-ux-designer  --input ./data.json    (для поиска Middle UX-designer)
+* python main.py --filter middle-ux-designer --input ./data.json    (для поиска Middle UX-designer)

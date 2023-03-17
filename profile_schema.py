@@ -9,6 +9,11 @@ class Location(BaseModel):
     country: str
 
 
+class LocationFilter(Location):
+    city: Optional[str]
+    country: Optional[str]
+
+
 class Experience(BaseModel):
     company_name: str
     job_title: str
@@ -17,6 +22,10 @@ class Experience(BaseModel):
     starts_at: date
     ends_at: Optional[date]
     location: Location
+
+    @staticmethod
+    def sort_by_starts_at(experiences: List['Experience'], reverse: bool = False) -> List['Experience']:
+        return sorted(experiences, key=lambda x: x.starts_at, reverse=reverse)
 
 
 class Profile(BaseModel):

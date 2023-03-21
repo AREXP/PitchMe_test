@@ -1,3 +1,6 @@
+import json
+import os
+import logging
 from collections.abc import Iterable
 from datetime import date, timedelta, datetime
 from typing import List, Optional, Union, Tuple
@@ -5,9 +8,6 @@ from profile_schema import Experience, Profile
 from pydantic import validate_arguments
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
-import json
-import os
-import logging
 
 logger = logging.getLogger(__name__)
 

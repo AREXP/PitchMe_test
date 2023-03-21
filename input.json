@@ -1,0 +1,92 @@
+[
+    {
+        "first_name": "Good",
+        "last_name": "Candidate1",
+        "skills": ["text"],
+        "description": "text",
+        "location": {"city": "London", "country": "England"},
+        "experiences": [
+            {
+                "company_name": "Apple",
+                "job_title": "Software engineer",
+                "description": "sZOurwgJfygBNtrgiAOd",
+                "skills": ["Figma", "Skill3", "C++", "UX-research"],
+                "starts_at": "2006-07-10",
+                "ends_at": "2006-07-11",
+                "location": {
+                    "city": "ltIAkNndQQjFzOMtGAnC",
+                    "country": "XKXjyqaaWIFjJaueeKSs",
+                },
+            },
+            {
+                "company_name": "Amazon",
+                "job_title": "Backend developer",
+                "description": "MaMfKwAKnOIXXXvHKSCU",
+                "skills": ["Figma", "Skill1"],
+                "starts_at": "2006-07-10",
+                "ends_at": "2006-07-11",
+                "location": {
+                    "city": "wzohoABwHEXjLGistJYe",
+                    "country": "uMqlydVwBbJeHgkfznRH",
+                },
+            },
+            {
+                "company_name": "Google",
+                "job_title": "Software engineer",
+                "description": "MaMfKwAKnOIXXXvHKSCU",
+                "skills": ["Figma", "Skill1"],
+                "starts_at": "2006-07-10",
+                "ends_at": "2006-07-11",
+                "location": {
+                    "city": "wzohoABwHEXjLGistJYe",
+                    "country": "uMqlydVwBbJeHgkfznRH",
+                },
+            },
+        ],
+    },
+    {
+        "first_name": "Good",
+        "last_name": "Candidate1",
+        "skills": ["text"],
+        "description": "text",
+        "location": {"city": "London", "country": "England"},
+        "experiences": [
+            {
+                "company_name": "Apple",
+                "job_title": "Software engineer",
+                "description": "sZOurwgJfygBNtrgiAOd",
+                "skills": ["Figma", "Skill3", "C++", "UX-research"],
+                "starts_at": "2006-07-10",
+                "ends_at": "2006-07-11",
+                "location": {
+                    "city": "ltIAkNndQQjFzOMtGAnC",
+                    "country": "XKXjyqaaWIFjJaueeKSs",
+                },
+            },
+            {
+                "company_name": "Amazon",
+                "job_title": "Backend developer",
+                "description": "MaMfKwAKnOIXXXvHKSCU",
+                "skills": ["Figma", "Skill1"],
+                "starts_at": "2006-07-10",
+                "ends_at": "2006-07-11",
+                "location": {
+                    "city": "wzohoABwHEXjLGistJYe",
+                    "country": "uMqlydVwBbJeHgkfznRH",
+                },
+            },
+            {
+                "company_name": "Google",
+                "job_title": "Software engineer",
+                "description": "MaMfKwAKnOIXXXvHKSCU",
+                "skills": ["Figma", "Skill1"],
+                "starts_at": "2006-07-10",
+                "ends_at": "2006-07-11",
+                "location": {
+                    "city": "wzohoABwHEXjLGistJYe",
+                    "country": "uMqlydVwBbJeHgkfznRH",
+                },
+            },
+        ],
+    },
+]

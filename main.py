@@ -47,7 +47,8 @@ def main():
     cls: Evaluator = evaluators[args.filter]()
     results = cls.evaluate(data)
     for res in results:
-        print(res.profile.first_name, res.status, res.reason)
+        fmt = f"{res.profile.first_name} {res.profile.last_name} - {res.status} {res.reason}"
+        print(fmt)
 
 
 if __name__ == "__main__":

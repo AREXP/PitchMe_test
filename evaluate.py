@@ -56,18 +56,18 @@ class Evaluator(ABC):
         current_exp = ExperiencePeriod(sorted_exp[0].starts_at, sorted_exp[0].ends_at)
         total_days = timedelta(days=0)
 
-        for i in range(1, len(experiences)):
-            if experiences[i].starts_at <= current_exp.ends_at:
+        for i in range(1, len(sorted_exp)):
+            if sorted_exp[i].starts_at <= current_exp.ends_at:
                 # if there is overlap with current range
                 current_exp = ExperiencePeriod(
                     current_exp.starts_at,
-                    max(current_exp.ends_at, experiences[i].ends_at),
+                    max(current_exp.ends_at, sorted_exp[i].ends_at),
                 )
             else:
                 # if there is no overlap with current range
-                total_days += current_exp.starts_at - current_exp.ends_at
+                total_days += current_exp.ends_at - current_exp.starts_at
                 current_exp = ExperiencePeriod(
-                    experiences[i].starts_at, experiences[i].ends_at
+                    sorted_exp[i].starts_at, sorted_exp[i].ends_at
                 )
 
         total_days += current_exp.ends_at - current_exp.starts_at
@@ -149,7 +149,7 @@ class Developer(Evaluator):
             # TODO: not every year is 365 days
             return (
                 False,
-                "Not enough experience, {days_of_experience.days} instead of {self.experience_years} years",
+                f"Not enough experience, {days_of_experience.days} instead of {self.experience_years} years",
             )
 
         return (True, "")

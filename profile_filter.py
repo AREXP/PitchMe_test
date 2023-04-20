@@ -45,7 +45,7 @@ class ExperiencedPythonDeveloperFilter(ProfileFilter):
                 latest_companies
             )
         ):
-            return False, f"{', '.join(latest_companies)} is not FAANG"
+            return False, f"{', '.join(latest_companies)} - not FAANG"
         return True, None
 
     @checker.attach

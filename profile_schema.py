@@ -34,15 +34,16 @@ class Profile(BaseModel):
         for e in experiences:
             if not isinstance(e, Experience):
                 raise TypeError(f"Value `{e}` is not of type 'Experience'!")
-        
-        # sort not ended experiences from the most recently start to the oldest start
+
+        # sort not ended experiences from the most recently start
+        # to the oldest start
         not_ended_experiences = sorted(
             [e for e in experiences if e.ends_at is None],
             key=lambda e: e.starts_at,
             reverse=True
         )
         # sort ended experiences firstly from the most recently ended,
-        # and secondly from the most recently started 
+        # and secondly from the most recently started
         ended_experiences = sorted(
             [e for e in experiences if e.ends_at is not None],
             key=lambda e: (e.ends_at, e.starts_at),

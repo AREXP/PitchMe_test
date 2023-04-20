@@ -17,23 +17,37 @@ class Filters(Enum):
 
 
 def main(profiles_path: Path, profile_filter: Filters):
-    profiles: List[Profile] = pydantic.parse_file_as(List[Profile], profiles_path)
+    profiles: List[Profile] = pydantic.parse_file_as(
+        List[Profile], profiles_path
+    )
 
     if profile_filter is Filters.EXPERIENCED_PYTHON:
         filter = ExperiencedPythonDeveloperFilter()
-    
+
     for profile in profiles:
+        print(f"{profile.first_name} {profile.last_name} - ", end="")
         try:
             filter.check(profile)
-            print(f"{profile.first_name} {profile.last_name} - True")
+            print("True")
         except CheckException as e:
-            print(f"{profile.first_name} {profile.last_name} - False, {e.fail_reason}")
+            print(f"False, {e.fail_reason}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Filter profiles based on their contents")
-    parser.add_argument("--profiles_path", type=Path, required=True, help="path to json-file with profiles")
-    parser.add_argument("--filter", type=Filters, choices=list(Filters), required=True, help="filter to use for profiles")
+    parser.add_argument(
+        "--profiles_path",
+        type=Path,
+        required=True,
+        help="path to json-file with profiles"
+    )
+    parser.add_argument(
+        "--filter",
+        type=Filters,
+        choices=list(Filters),
+        required=True,
+        help="filter to use for profiles"
+    )
     args = parser.parse_args()
 
     main(args.profiles_path, args.filter)

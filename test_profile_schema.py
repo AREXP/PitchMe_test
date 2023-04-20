@@ -29,7 +29,8 @@ class TestProfileSchemaExperiencesOrder(unittest.TestCase):
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2017-01-01",
                     "ends_at": "2020-01-01",
                     "location": {"city": "", "country": ""}
@@ -48,7 +49,9 @@ class TestProfileSchemaExperiencesOrder(unittest.TestCase):
             "experiences": []
         }
         self.assertEqual(
-            pydantic.parse_obj_as(Profile, profile_empty_experiences).experiences,
+            pydantic.parse_obj_as(
+                Profile, profile_empty_experiences
+            ).experiences,
             []
         )
 
@@ -58,20 +61,23 @@ class TestProfileSchemaExperiencesOrder(unittest.TestCase):
             "location": {"city": "", "country": ""},
             "experiences": [
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2020-01-01",
                     "ends_at": "2023-01-01",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2017-01-01",
                     "ends_at": "2020-01-01",
                     "location": {"city": "", "country": ""}
                 },
             ]
         }
-        experiences = pydantic.parse_obj_as(Profile, profile_description).experiences
+        experiences = pydantic.parse_obj_as(
+            Profile, profile_description).experiences
         self.assertEqual(
             (experiences[0].starts_at, experiences[0].ends_at),
             (datetime.date(2020, 1, 1), datetime.date(2023, 1, 1))
@@ -87,20 +93,23 @@ class TestProfileSchemaExperiencesOrder(unittest.TestCase):
             "location": {"city": "", "country": ""},
             "experiences": [
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2017-01-01",
                     "ends_at": "2020-01-01",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2020-01-01",
                     "ends_at": "2023-01-01",
                     "location": {"city": "", "country": ""}
                 },
             ]
         }
-        experiences = pydantic.parse_obj_as(Profile, profile_description).experiences
+        experiences = pydantic.parse_obj_as(
+            Profile, profile_description).experiences
         self.assertEqual(
             (experiences[0].starts_at, experiences[0].ends_at),
             (datetime.date(2020, 1, 1), datetime.date(2023, 1, 1))
@@ -116,19 +125,22 @@ class TestProfileSchemaExperiencesOrder(unittest.TestCase):
             "location": {"city": "", "country": ""},
             "experiences": [
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2017-01-01",
                     "ends_at": "2020-01-01",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2020-01-01",
                     "location": {"city": "", "country": ""}
                 },
             ]
         }
-        experiences = pydantic.parse_obj_as(Profile, profile_description).experiences
+        experiences = pydantic.parse_obj_as(
+            Profile, profile_description).experiences
         self.assertEqual(
             (experiences[0].starts_at, experiences[0].ends_at),
             (datetime.date(2020, 1, 1), None)
@@ -144,23 +156,27 @@ class TestProfileSchemaExperiencesOrder(unittest.TestCase):
             "location": {"city": "", "country": ""},
             "experiences": [
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2017-01-01",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2020-01-01",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2022-01-01",
                     "location": {"city": "", "country": ""}
                 },
             ]
         }
-        experiences = pydantic.parse_obj_as(Profile, profile_description).experiences
+        experiences = pydantic.parse_obj_as(
+            Profile, profile_description).experiences
         self.assertEqual(
             (experiences[0].starts_at, experiences[0].ends_at),
             (datetime.date(2022, 1, 1), None)
@@ -180,41 +196,48 @@ class TestProfileSchemaExperiencesOrder(unittest.TestCase):
             "location": {"city": "", "country": ""},
             "experiences": [
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2017-01-01",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2022-01-01",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2020-01-01",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2016-01-01",
                     "ends_at": "2021-01-02",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2015-01-01",
                     "ends_at": "2016-01-02",
                     "location": {"city": "", "country": ""}
                 },
                 {
-                    "company_name": "", "job_title": "", "description": "", "skills": [],
+                    "company_name": "", "job_title": "", "description": "",
+                    "skills": [],
                     "starts_at": "2018-01-01",
                     "ends_at": "2019-01-02",
                     "location": {"city": "", "country": ""}
                 },
             ]
         }
-        experiences = pydantic.parse_obj_as(Profile, profile_description).experiences
+        experiences = pydantic.parse_obj_as(
+            Profile, profile_description).experiences
         self.assertEqual(
             (experiences[0].starts_at, experiences[0].ends_at),
             (datetime.date(2022, 1, 1), None)

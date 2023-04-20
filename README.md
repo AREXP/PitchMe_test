@@ -83,3 +83,21 @@ Steve Jobs – False, Never worked in UK
 * python3.7+
 * Только built-in модули, кроме следующего пункта
 * pydantic==1.7.3, requirements.txt не обязателен, считаем, что он есть на моем компьютере
+
+## Примеры запуска
+
+### Запуск тестов
+
+Проверка корректности сортировки опыта:
+
+```bash
+python test_profile_schema.py
+```
+
+### Запуск фильтра
+
+В корне JSON-файла должен находится список объектов, каждый из которых описывает Profile согласно схеме 
+
+```bash
+python main.py --profiles_path profiles.json --filter EXPERIENCED_PYTHON
+```

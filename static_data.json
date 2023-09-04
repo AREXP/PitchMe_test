@@ -1,0 +1,7 @@
+{
+    "FAANG": ["facebook", "amazon", "apple", "netflix", "google"],
+    "COUNTRY": {
+        "gb": ["united kingdom", "uk", "england", "gb"],
+        "ru": ["russia"]
+    }
+}

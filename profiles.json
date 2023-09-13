@@ -118,7 +118,7 @@
         "job_title": "Product designer",
         "description": "Developed online accounting",
         "skills": ["Figma", "JavaScript", "Miro"],
-        "starts_at": "",
+        "starts_at": "2019-04-28",
         "location": {
           "city": "London",
           "country": "United Kingdom"

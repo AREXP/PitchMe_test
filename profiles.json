@@ -1,0 +1,65 @@
+[
+    {
+        "first_name": "Jason",
+        "last_name": "Black",
+        "skills": ["Python", "C++", "FastAPI", "Django", "Flask"],
+        "description": "Experienced Python developer",
+        "location": {"city": "London", "country": "UK"},
+        "experiences": [
+            {
+                "company_name": "Google",
+                "job_title": "Software engineer",
+                "description": "Worked on Python projects",
+                "skills": ["Python", "C++"],
+                "starts_at": "2012-01-01",
+                "ends_at": "2016-01-01",
+                "location": {"city": "London", "country": "UK"}
+            },
+            {
+                "company_name": "FAANG",
+                "job_title": "Backend developer",
+                "description": "Worked on Python projects",
+                "skills": ["Python", "C++"],
+                "starts_at": "2017-01-01",
+                "ends_at": "2022-01-01",
+                "location": {"city": "California", "country": "US"}
+            },
+            {
+                "company_name": "Apple",
+                "job_title": "Software engineer",
+                "description": "Worked on Python projects",
+                "skills": ["Python", "C++", "C"],
+                "starts_at": "2023-01-01",
+                "ends_at": null,
+                "location": {"city": "London", "country": "UK"}
+            }
+        ]
+    },
+    {
+        "first_name": "Amanda",
+        "last_name": "Blue",
+        "skills": ["Figma", "Animations", "Sketch", "UX-research", "Miro"],
+        "description": "Experienced middle designer",
+        "location": {"city": "Berlin", "country": "DE"},
+        "experiences": [
+            {
+                "company_name": "Amazon",
+                "job_title": "Product designer",
+                "description": "Worked on product design solutions",
+                "skills": ["Figma", "Jira", "UX-research"],
+                "starts_at": "2018-01-01",
+                "ends_at": "2022-01-01",
+                "location": {"city": "Singapore", "country": "SG"}
+            },
+            {
+                "company_name": "LG",
+                "job_title": "UX-designer",
+                "description": "Worked on UX-design solutions",
+                "skills": ["Figma", "UX-templates", "UX-research"],
+                "starts_at": "2020-01-01",
+                "ends_at": "2022-01-01",
+                "location": {"city": "Kazakhstan", "country": "KZ"}
+            }
+        ]
+    }
+]

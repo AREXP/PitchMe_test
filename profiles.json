@@ -36,6 +36,42 @@
         ]
     },
     {
+        "first_name": "Andrew",
+        "last_name": "White",
+        "skills": ["Java", "Javascript", "React", "TypeScript"],
+        "description": "Fullstack developer",
+        "location": {"city": "Amsterdam", "country": "NL"},
+        "experiences": [
+            {
+                "company_name": "Cisco",
+                "job_title": "Software engineer",
+                "description": "Worked on Cisco backend projects",
+                "skills": ["Java", "C"],
+                "starts_at": "2013-01-01",
+                "ends_at": "2015-01-01",
+                "location": {"city": "Cracow", "country": "PL"}
+            },
+            {
+                "company_name": "FAANG",
+                "job_title": "Fullstack developer",
+                "description": "Worked on internal FAANG microservices",
+                "skills": ["Java"],
+                "starts_at": "2015-01-01",
+                "ends_at": "2017-01-01",
+                "location": {"city": "California", "country": "US"}
+            },
+            {
+                "company_name": "IBM",
+                "job_title": "Software engineer",
+                "description": "Technical team lead at IBM",
+                "skills": ["Python", "C++", "C"],
+                "starts_at": "2018-01-01",
+                "ends_at": null,
+                "location": {"city": "Lisbon", "country": "PT"}
+            }
+        ]
+    },
+    {
         "first_name": "Amanda",
         "last_name": "Blue",
         "skills": ["Figma", "Animations", "Sketch", "UX-research", "Miro"],
@@ -59,6 +95,33 @@
                 "starts_at": "2020-01-01",
                 "ends_at": "2022-01-01",
                 "location": {"city": "Kazakhstan", "country": "KZ"}
+            }
+        ]
+    },
+    {
+        "first_name": "Milena",
+        "last_name": "Gray",
+        "skills": ["Adobe", "Animations", "Miro"],
+        "description": "Experienced middle designer",
+        "location": {"city": "Bucharest", "country": "RO"},
+        "experiences": [
+            {
+                "company_name": "Samsung",
+                "job_title": "Product designer",
+                "description": "Worked on product design solutions",
+                "skills": ["Figma", "Sketch", "UI-research"],
+                "starts_at": "2016-01-01",
+                "ends_at": "2018-01-01",
+                "location": {"city": "Tbilisi", "country": "GE"}
+            },
+            {
+                "company_name": "CocaCola",
+                "job_title": "UX-designer",
+                "description": "Worked on UX-design solutions",
+                "skills": ["Miro", "UX-templates", "UX-research", "Interviews with customers"],
+                "starts_at": "2018-01-01",
+                "ends_at": null,
+                "location": {"city": "Baku", "country": "AZ"}
             }
         ]
     }

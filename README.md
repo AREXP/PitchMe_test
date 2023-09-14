@@ -83,3 +83,9 @@ Steve Jobs – False, Never worked in UK
 * python3.7+
 * Только built-in модули, кроме следующего пункта
 * pydantic==1.7.3, requirements.txt не обязателен, считаем, что он есть на моем компьютере
+
+## Запуск:
+```
+python main.py --filter python_dev --input profiles.json
+python main.py --filter ux_designer --input profiles.json
+```

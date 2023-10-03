@@ -1,0 +1,140 @@
+[
+  {
+    "first_name": "John",
+    "last_name": "Smith",
+    "skills": ["Python", "JavaScript", "PostgreSQL"],
+    "description": "Good man",
+    "location": {
+      "city": "Manavgat",
+      "country": "Turkey"
+    },
+    "experiences": [
+      {
+        "company_name": "BARS Group",
+        "job_title": "junior backend developer",
+        "description": "Developed online accounting",
+        "skills": ["Python", "Django", "Docker"],
+        "starts_at": "2021-09-29",
+        "ends_at": "2022-10-16",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "Yandex Practicum",
+        "job_title": "mentor",
+        "description": "To teach students",
+        "skills": ["Python", "Django", "Docker"],
+        "starts_at": "2022-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Bob",
+    "last_name": "Taylor",
+    "skills": ["Python", "JavaScript", "PostgreSQL"],
+    "description": "Very good man",
+    "location": {
+      "city": "London",
+      "country": "united kingdom"
+    },
+    "experiences": [
+      {
+        "company_name": "Google",
+        "job_title": "Backend developer",
+        "description": "Developed online accounting",
+        "skills": ["Python", "Django", "Docker"],
+        "starts_at": "2017-09-29",
+        "ends_at": "2022-10-16",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "company_name": "Yandex",
+        "job_title": "Backend developer",
+        "description": "To teach students",
+        "skills": ["Python", "Django", "Docker", "c++"],
+        "starts_at": "2019-04-29",
+        "location": {
+          "city": "Moscow",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Anna",
+    "last_name": "Taylor",
+    "skills": ["Figma", "JavaScript", "Miro"],
+    "description": "Very good lady",
+    "location": {
+      "city": "Rome",
+      "country": "Italy"
+    },
+    "experiences": [
+      {
+        "company_name": "Google",
+        "job_title": "Product designer",
+        "description": "Developed online accounting",
+        "skills": ["Figma", "JavaScript", "Miro"],
+        "starts_at": "2018-09-29",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "company_name": "Yandex",
+        "job_title": "UX-designer",
+        "description": "To teach students",
+        "skills": ["Figma", "JavaScript", "Miro"],
+        "starts_at": "2019-04-29",
+        "location": {
+          "city": "Moscow",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Anna test",
+    "last_name": "Taylor",
+    "skills": ["Figma", "JavaScript", "Miro"],
+    "description": "Very good lady",
+    "location": {
+      "city": "Rome",
+      "country": "Italy"
+    },
+    "experiences": [
+      {
+        "company_name": "Google",
+        "job_title": "Product designer",
+        "description": "Developed online accounting",
+        "skills": ["Figma", "JavaScript", "Miro"],
+        "starts_at": "",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      },
+      {
+        "company_name": "Yandex",
+        "job_title": "UX-designer",
+        "description": "To teach students",
+        "skills": ["Figma", "JavaScript", "Miro"],
+        "starts_at": "2019-04-29",
+        "location": {
+          "city": "Moscow",
+          "country": "Russia"
+        }
+      }
+    ]
+  }
+]

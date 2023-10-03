@@ -15,7 +15,7 @@ class Experience(BaseModel):
     description: str
     skills: List[str]
     starts_at: date
-    ends_at: Optional[date]
+    ends_at: Optional[date] = date.today()
     location: Location
 
 
@@ -26,3 +26,7 @@ class Profile(BaseModel):
     description: str
     location: Location
     experiences: List[Experience]
+
+    @property
+    def full_name(self):
+        return f'{self.first_name} {self.last_name}'

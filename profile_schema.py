@@ -1,3 +1,4 @@
+import datetime
 from datetime import date
 from typing import List, Optional
 
@@ -15,7 +16,7 @@ class Experience(BaseModel):
     description: str
     skills: List[str]
     starts_at: date
-    ends_at: Optional[date]
+    ends_at: Optional[date] = datetime.datetime.date(datetime.datetime.now())
     location: Location
 
 

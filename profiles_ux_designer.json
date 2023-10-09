@@ -1,0 +1,347 @@
+[
+  {
+    "first_name": "Ivan",
+    "last_name": "Petrovich",
+    "skills": [
+      "Figma",
+      "Miro"
+    ],
+    "description": "positive case",
+    "location": {
+      "city": "paris",
+      "country": "france"
+    },
+    "experiences": [
+      {
+        "company_name": "meta",
+        "job_title": "Product designer1",
+        "description": "some desc",
+        "skills": [
+          "C++",
+          "Figma"
+        ],
+        "ends_at": "2023-11-11",
+        "starts_at": "2021-11-11",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "company_name": "meta",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "Sketch",
+          "miro"
+        ],
+        "starts_at": "2000-12-12",
+        "ends_at": "2001-12-12",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "company_name": "meta",
+        "job_title": "ux-designer",
+        "description": "some desc",
+        "skills": [
+          "sikll",
+          "miro"
+        ],
+        "starts_at": "2010-10-10",
+        "ends_at": "2010-10-10",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Steve",
+    "last_name": "Jobs",
+    "skills": [
+      "c++",
+      "python"
+    ],
+    "description": "wrong job title",
+    "location": {
+      "city": "london",
+      "country": "denmark"
+    },
+    "experiences": [
+      {
+        "company_name": "Apple",
+        "job_title": "Product owner",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2018-11-11",
+        "ends_at": "2023-11-11",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2000-12-12",
+        "ends_at": "2002-12-12",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "company_name": "Next",
+        "job_title": "Product owner",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2008-10-10",
+        "ends_at": "2010-10-10",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Peter",
+    "last_name": "Parker",
+    "skills": [
+      "c++",
+      "python"
+    ],
+    "description": "Wrong skills",
+    "location": {
+      "city": "london",
+      "country": "uk"
+    },
+    "experiences": [
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2018-11-11",
+        "ends_at": "2023-11-11",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2000-12-12",
+        "ends_at": "2002-12-12",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Harold",
+    "last_name": "Peterson",
+    "skills": [
+      "FIGMA",
+      "SKETCH"
+    ],
+    "description": "Wrong country",
+    "location": {
+      "city": "london",
+      "country": "USA"
+    },
+    "experiences": [
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2020-11-11",
+        "ends_at": "2023-11-11",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2000-12-12",
+        "ends_at": "2002-12-12",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Henric",
+    "last_name": "Mall",
+    "skills": [
+      "FIGMA",
+      "SKETCH"
+    ],
+    "description": "Wrong experience on last job",
+    "location": {
+      "city": "london",
+      "country": "denmark"
+    },
+    "experiences": [
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2022-11-11",
+        "ends_at": "2023-11-11",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2000-12-12",
+        "ends_at": "2002-12-12",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Steve",
+    "last_name": "O",
+    "skills": [
+      "FIGMA",
+      "SKETCH"
+    ],
+    "description": "Wrong summary experience",
+    "location": {
+      "city": "london",
+      "country": "denmark"
+    },
+    "experiences": [
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2019-11-11",
+        "ends_at": "2023-11-11",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2000-12-12",
+        "ends_at": "2012-12-12",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Wrong",
+    "last_name": "Json",
+    "skills": [
+      "FIGMA",
+      "SKETCH"
+    ],
+    "description": "Wrong serialization",
+    "location": {
+      "city": "london",
+      "country": "denmark"
+    },
+    "experiences": [
+      {
+        "company_name": "Apple",
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2019-11-11",
+        "ends_at": "2023-11-11",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      },
+      {
+        "job_title": "UX-designer",
+        "description": "some desc",
+        "skills": [
+          "c++",
+          "python"
+        ],
+        "starts_at": "2000-12-12",
+        "ends_at": "2012-12-12",
+        "location": {
+          "city": "london",
+          "country": "uk"
+        }
+      }
+    ]
+  }
+
+]

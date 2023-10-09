@@ -83,3 +83,10 @@ Steve Jobs – False, Never worked in UK
 * python3.7+
 * Только built-in модули, кроме следующего пункта
 * pydantic==1.7.3, requirements.txt не обязателен, считаем, что он есть на моем компьютере
+___
+
+## Примеры запуска
+* Middle UX-designer:
+`python main.py --filter ux_designer --input profiles_ux_designer.json`
+* Опытный python-разработчик:
+`python main.py --filter python_dev --input profiles_backend.json`

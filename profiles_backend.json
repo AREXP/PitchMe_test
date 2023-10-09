@@ -1,0 +1,496 @@
+[
+  {
+    "first_name": "Alan",
+    "last_name": "Woodly",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "description": "wrong serialization ",
+    "location": {
+      "city": "Moscow",
+      "country": "UK"
+    },
+    "experiences": [
+      {
+        "company_name": "Google",
+        "job_title": "junior backend developer",
+        "description": "Developed online accounting",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker",
+          "C++"
+        ],
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2022-10-16",
+        "starts_at": "2021-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook inc.",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2021-03-29",
+        "starts_at": "2010-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "John",
+    "last_name": "Smith",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "description": "positive case",
+    "location": {
+      "city": "London",
+      "country": "UK"
+    },
+    "experiences": [
+      {
+        "company_name": "Google",
+        "job_title": "junior backend developer",
+        "description": "Developed online accounting",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker",
+          "c++"
+        ],
+        "starts_at": "2022-09-16",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2022-10-16",
+        "starts_at": "2021-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook inc.",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2021-03-29",
+        "starts_at": "2010-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Ivan",
+    "last_name": "Ivanovich",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "description": "not work in faang on last two jobs",
+    "location": {
+      "city": "London",
+      "country": "UK"
+    },
+    "experiences": [
+      {
+        "company_name": "Gortis",
+        "job_title": "junior backend developer",
+        "description": "Developed online accounting",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker",
+          "c++"
+        ],
+        "starts_at": "2022-09-16",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2022-10-16",
+        "starts_at": "2021-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook inc.",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2021-03-29",
+        "starts_at": "2010-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Peter",
+    "last_name": "Petrovich",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "description": "not Backend Developer or Software Engineer on last 3 jobs",
+    "location": {
+      "city": "London",
+      "country": "UK"
+    },
+    "experiences": [
+      {
+        "company_name": "Netflix",
+        "job_title": "senior backend developer",
+        "description": "Developed online accounting",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker",
+          "c++"
+        ],
+        "starts_at": "2022-09-16",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2022-10-16",
+        "starts_at": "2021-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook inc.",
+        "job_title": "salary manager",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2021-03-29",
+        "starts_at": "2010-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Peter",
+    "last_name": "Andreevich",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "description": "not Backend Developer or Software Engineer on last 3 jobs (less than 3 jobs)",
+    "location": {
+      "city": "London",
+      "country": "UK"
+    },
+    "experiences": [
+      {
+        "company_name": "Netflix",
+        "job_title": "senior backend developer",
+        "description": "Developed online accounting",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker",
+          "c++"
+        ],
+        "starts_at": "2022-09-16",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2022-10-16",
+        "starts_at": "2021-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Andy",
+    "last_name": "Hacker",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "description": "summary experience less than 8 years",
+    "location": {
+      "city": "London",
+      "country": "UK"
+    },
+    "experiences": [
+      {
+        "company_name": "Google",
+        "job_title": "junior backend developer",
+        "description": "Developed online accounting",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker",
+          "c++"
+        ],
+        "starts_at": "2022-09-16",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2022-10-16",
+        "starts_at": "2021-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook inc.",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2021-03-29",
+        "starts_at": "2019-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Woody",
+    "last_name": "Woodpecker",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "description": "not enough skills on last job ",
+    "location": {
+      "city": "London",
+      "country": "UK"
+    },
+    "experiences": [
+      {
+        "company_name": "Google",
+        "job_title": "junior backend developer",
+        "description": "Developed online accounting",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "starts_at": "2022-09-16",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2022-10-16",
+        "starts_at": "2021-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook inc.",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2021-03-29",
+        "starts_at": "2010-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  },
+  {
+    "first_name": "Alan",
+    "last_name": "Woodly",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "description": "wrong city ",
+    "location": {
+      "city": "Moscow",
+      "country": "UK"
+    },
+    "experiences": [
+      {
+        "company_name": "Google",
+        "job_title": "junior backend developer",
+        "description": "Developed online accounting",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker",
+          "C++"
+        ],
+        "starts_at": "2022-09-16",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2022-10-16",
+        "starts_at": "2021-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      },
+      {
+        "company_name": "facebook inc.",
+        "job_title": "backend developer",
+        "description": "To teach students",
+        "skills": [
+          "Python",
+          "Django",
+          "Docker"
+        ],
+        "ends_at": "2021-03-29",
+        "starts_at": "2010-04-29",
+        "location": {
+          "city": "Perm",
+          "country": "Russia"
+        }
+      }
+    ]
+  }
+]
